@@ -10,7 +10,8 @@
         display: inline-block;
         cursor: pointer;
         padding: $padding;
-        border-radius: $border-radius;
+        border-radius: $border-radius*0.5;
+        transition: 0.3s all;
         @include mx(12px);
         &:hover {
             background-color: $color-white;
@@ -25,4 +26,9 @@
     margin-top: 2em;
     border-radius: $border-radius;
     @include shadow;
+    h1 {
+        font-size: $baseFontSize*1.5;
+        border-bottom: 2px solid $color-secondary;
+        @include my(0.7em);
+    }
 }
