@@ -1,0 +1,30 @@
+// Colores
+$color-brand: #EA83EE;
+$color-secondary: rgb(219, 216, 121);
+
+$color-black: rgb(0, 0, 0);
+$color-darkgray: #4D4D4D;
+$color-gray: #737373;
+$color-ligthgray: #BFBFBF;
+$color-ligthgray-base: #EEE;
+$color-white: white;
+
+// Texturas
+$color-alert: rgb(252, 228, 207);
+$color-error: rgb(218, 79, 73);
+$color-info: rgb(66, 184, 221);
+$color-success: rgb(91, 183, 91);
+
+// Tipografía
+$baseFont: 'Montserrat', sans-serif;
+$baseFontSize: 16px;
+
+$buttonColor: $color-white;
+$buttonBackgroundColor: $color-brand;
+$buttonFontSize: $baseFontSize * 1.5;
+
+// Constantes
+$border-radius: 8px;
+$padding: 12px;
+// Constantes-navbar
+$navbar-height: 80px;

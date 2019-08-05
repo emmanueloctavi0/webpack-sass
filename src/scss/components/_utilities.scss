@@ -1,0 +1,28 @@
+.navbar {
+    background: $color-darkgray;
+    color: $color-white;
+    height: $navbar-height;
+    @include center;
+    ul {
+        @include mp-zero;
+    }
+    li {
+        display: inline-block;
+        cursor: pointer;
+        padding: $padding;
+        border-radius: $border-radius;
+        @include mx(12px);
+        &:hover {
+            background-color: $color-white;
+            color: $color-darkgray;
+        }
+    }
+}
+
+.card {
+    background: $color-white;
+    padding: $padding;
+    margin-top: 2em;
+    border-radius: $border-radius;
+    @include shadow;
+}
